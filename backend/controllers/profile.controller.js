@@ -184,6 +184,22 @@ const updateLinkedIn = async (req, res) => {
   }
 };
 
+const updateHourlyRate = async (req, res) => {
+  try {
+    await freelancerProfile_model.findByIdAndUpdate(req.user.profile, {
+      hourlyRate: req.body.hourlyRate,
+    });
+    res.status(201).send({
+      message: "Hourly rate updated",
+    });
+  } catch (error) {
+    console.log("Error while updating hourly rate: ", error);
+    res.status(500).send({
+      error: "Failed to Update Hourly Rate",
+    });
+  }
+};
+
 const profile_controller = {
   uploadProfileImage: uploadProfileImage,
   viewProfile: viewProfile,
@@ -195,6 +211,7 @@ const profile_controller = {
   updateGithub: updateGithub,
   updateTwitter: updateTwitter,
   updateLinkedIn: updateLinkedIn,
+  updateHourlyRate: updateHourlyRate
 };
 
 export default profile_controller;

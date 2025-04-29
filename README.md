@@ -1,19 +1,12 @@
-# 🚀 Freelancia – Empowering Freelancers
+# 🚀 IntelliHire – Empowering Freelancers
 
-![GitHub stars](https://img.shields.io/github/stars/amriteshanand0129/SIH)
-![GitHub forks](https://img.shields.io/github/forks/amriteshanand0129/SIH)
 
 ## 🌟 About the Project  
 Freelancia is a feature-rich freelancing platform designed to **connect businesses with skilled freelancers** efficiently. This platform ensures **seamless job postings, secure payments, and smooth communication**.
 
 _This project represents a collaborative endeavor by our six-member team, undertaken during our participation in the Gear Up Season 3: Gateway to Smart India Hackathon._
 
-### 👨‍💻 Contributors
-- 👤 Amritesh Anand: [GitHub](https://github.com/amriteshanand0129)
-[LinkedIn](https://www.linkedin.com/in/amritesh-anand/)
-- 👤 Krishna Rana: [GitHub](https://github.com/KrishnaRana238)
-[LinkedIn](https://www.linkedin.com/in/krishna-rana-b38265231/)
-- 👤 Priyanshu: [Github](https://github.com/Priyanshu111123)
+
 
 ### ✨ Key Features  
 - 📝 Post & Find Freelance Jobs – Clients can post jobs, and freelancers can bid on projects.
